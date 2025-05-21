@@ -26,7 +26,7 @@ function customRender(reactElement,container){//here we render the html in react
 
 //this is our custom react project setup
 const reactElement ={//this is a way in which react works internally when we react.create() and covert this into 
-    type:'a',
+    type:'a',//this is a tag that we want to make 
     props:{
         href:"https://google.com",
         target:'_blank'
