@@ -1,0 +1,37 @@
+body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  
+   display: flex;
+   flex-direction: column;
+   border: 2px solid white;
+   padding:20px;
+   margin: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.input-box{
+  margin: 10px;
+  padding:5px;
+}
+.input-change{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.div-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+label{
+  color: white;
+  font-size: large;
+}
