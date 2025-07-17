@@ -12,6 +12,7 @@ import { Route } from 'react-router-dom'
 import User from './component/User/User.jsx'
 
 //Method:1 of Routing
+//dynamic routing as well we understood by usng props
 // const router =createBrowserRouter([
 //   {
 //     path:"/",//top level Element

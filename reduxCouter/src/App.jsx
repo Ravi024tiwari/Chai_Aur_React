@@ -1,13 +1,12 @@
 import { useState } from 'react'
-import PostInfo from './components/Post';
 import './App.css'
+import Buttons from './Components/Buttons'
 function App() {
-
+  const [count, setCount] = useState(0)
 
   return (
     <div>
-      <h1>Api Fetching in React..</h1>
-      <PostInfo />
+      <Buttons />
     </div>
   )
 }
